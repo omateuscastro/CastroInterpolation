@@ -16,7 +16,7 @@ namespace CastroInterpolation.Tests
         public void ShouldValidateInterpolation(double x1, double y1, double x2, double y2, double x3, double expectedResult, int precision)
         {   
 
-            Assert.AreEqual(Convert.ToDecimal(expectedResult), CastroInterpolation.CalculateInterpolation(Convert.ToDecimal(x1), Convert.ToDecimal(y1), Convert.ToDecimal(x2), Convert.ToDecimal(y2), Convert.ToDecimal(x3), precision));
+            Assert.AreEqual(Convert.ToDecimal(expectedResult), LinearInterpolation.CalculateInterpolation(Convert.ToDecimal(x1), Convert.ToDecimal(y1), Convert.ToDecimal(x2), Convert.ToDecimal(y2), Convert.ToDecimal(x3), precision));
         }
     }
 }
