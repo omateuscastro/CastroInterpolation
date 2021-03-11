@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>CastroInterpolation</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Mateus Castro</Authors>
+    <Company>Castro</Company>
+    <PackageDescription>Linear Interpolation</PackageDescription>
+    <Description>Linear Interpolation</Description>
+    <RepositoryUrl>https://github.com/omateuscastro/CastroInterpolation</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/omateuscastro/CastroInterpolation</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Interpolation</PackageTags>
+    <ReleaseNotes>.</ReleaseNotes>
+    <Title>CastroInterpolation</Title>
+    <Summary>CastroInterpolation, Nuget Package for Linear Interpolation.</Summary>
+  </PropertyGroup>
+
+</Project>
